@@ -1,7 +1,7 @@
 # Camera packages
 PRODUCT_PACKAGES += \
+    camera.qcom \
     OpenCamera
-#    camera.qcom \
 #    Camera2
 
 # Camera SHIM packages
