@@ -6,9 +6,6 @@ PRODUCT_COPY_FILES += \
 # WiFi packages
 PRODUCT_PACKAGES += \
     hostapd \
-    libqsap_sdk \
-    libQWiFiSoftApCfg \
     libwpa_client \
-    wcnss_service \
     wpa_supplicant \
     wpa_supplicant.conf

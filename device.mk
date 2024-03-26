@@ -31,4 +31,4 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-1024-dalvi
 include $(LOCAL_PATH)/product/*.mk
 
 # Vendor product configurations
-$(call inherit-product, vendor/sony/nicki/nicki-vendor.mk)
+$(call inherit-product, vendor/samsung/loganreltexx/loganreltexx-vendor.mk)

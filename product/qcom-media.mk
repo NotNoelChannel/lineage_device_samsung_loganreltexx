@@ -6,16 +6,16 @@ PRODUCT_COPY_FILES += \
 
 # OMX packages
 PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
     libc2dcolorconvert \
     libdivxdrmdecrypt \
     libmm-omxcore \
+    libOmxCore \
+    libOmxVenc \
+    libOmxVdec \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxEvrcEnc \
+    libOmxQcelp13Enc \
     libstagefrighthw
 
 # DRM packages

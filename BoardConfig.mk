@@ -15,7 +15,7 @@
 #
 
 # Board device path
-DEVICE_PATH := device/sony/nicki
+DEVICE_PATH := device/samsung/loganreltexx
 
 # Board device headers
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
@@ -25,4 +25,4 @@ include $(DEVICE_PATH)/PlatformConfig.mk
 include $(DEVICE_PATH)/board/*.mk
 
 # Board device vendor
--include vendor/sony/nicki/BoardConfigVendor.mk
+-include vendor/samsung/loganreltexx/BoardConfigVendor.mk

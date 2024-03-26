@@ -1,9 +1,7 @@
 # Camera packages
 PRODUCT_PACKAGES += \
-    camera.qcom \
-    OpenCamera
-#    Camera2
+    camera.msm8960 \
+    OpenCamera \
+	Snap
 
-# Camera SHIM packages
-PRODUCT_PACKAGES += \
-    libsony
+

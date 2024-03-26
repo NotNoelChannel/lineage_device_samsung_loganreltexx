@@ -5,16 +5,17 @@ PRODUCT_COPY_FILES += \
 
 # RIL properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libargs=-d[SPACE]/dev/smd0 \
-    rild.libpath=/system/lib/libril-qc-qmi-1.so \
-    ro.telephony.ril_class=SonyRIL
+    rild.libpath=/system/lib/libsec-ril.so \
+    rild.libargs=-d/dev/smd0 \
+    telephony.lteOnGsmDevice=1 \
+    ro.telephony.default_network=3 \
+    ro.com.android.mobiledata=false \
+    ro.telephony.ril_class=SonyRIL \
+    ro.ril.telephony.mqanelements=6 \
+    persist.radio.add_power_save=1
 
 # Radio properties
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=0
-
-# Telephony properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.call_ring.multiple=0

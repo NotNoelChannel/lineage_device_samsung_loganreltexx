@@ -1,10 +1,12 @@
-allow system_server vibeamp_sysfs:file rw_file_perms;
-allow system_server kcal_sysfs:file rw_file_perms;
-allow system_server sensord_data_file:dir { search write };
-allow system_server sensord_data_file:dir { getattr setattr };
-allow system_server sensord_data_file:fifo_file rw_file_perms;
-allow system_server led_deamon_data_file:fifo_file rw_file_perms;
+# backlight notification
+allow system_server sysfs_bln:dir r_dir_perms;
+allow system_server sysfs_bln:file rw_file_perms;
+allow system_server sysfs_bln:lnk_file r_file_perms;
 
-allow system_server baseband_prop:file read;
-
+allow system_server efs_file:dir search;
+allow system_server efs_file:file r_file_perms;
+allow system_server persist_file:dir rw_file_perms;
+allow system_server sysfs_keypad:file rw_file_perms;
 allow system_server sysfs_thermal:file r_file_perms;
+allow system_server system_file:file execmod;
+allow system_server time_daemon:unix_stream_socket connectto;

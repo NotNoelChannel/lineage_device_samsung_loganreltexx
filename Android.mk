@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR_PLATFORM),nicki)
+ifeq ($(BOARD_VENDOR_PLATFORM),loganreltexx)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 

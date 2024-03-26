@@ -19,15 +19,15 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configurations
-$(call inherit-product, device/sony/nicki/device.mk)
+$(call inherit-product, device/samsung/loganreltexx/device.mk)
 
 # Device display
-TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
-PRODUCT_DEVICE := nicki
-PRODUCT_NAME := lineage_nicki
-PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := nicki
+PRODUCT_DEVICE := loganreltexx
+PRODUCT_NAME := lineage_loganreltexx
+PRODUCT_BRAND := Samsung
+PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := loganreltexx
