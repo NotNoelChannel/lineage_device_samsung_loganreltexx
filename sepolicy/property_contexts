@@ -1,4 +1,2 @@
-persist.sys.camera.preview    u:object_r:camera_prop:s0
-sys.qseecomd.enable           u:object_r:qseecomd_prop:s0
-user.language                 u:object_r:default_prop:s0
-user.region                   u:object_r:default_prop:s0
+gsm.version.baseband		u:object_r:baseband_prop:s0
+persist.tareset.notfirstboot    u:object_r:updatemiscta_prop:s0

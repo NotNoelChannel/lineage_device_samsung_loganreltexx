@@ -1,1 +1,1 @@
-allow zygote self:capability sys_nice;
+set_prop(zygote, baseband_prop)
